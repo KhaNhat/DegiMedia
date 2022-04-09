@@ -1,0 +1,87 @@
+.about{
+    padding-top:130px;
+    &Main{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        align-items:center;
+        img{
+            margin-bottom:45px;
+        }
+        &right{
+            padding: 0 12px;
+            h6{
+                font-size: 15px;
+                font-weight: 700;
+                color: #726ae3;
+                text-transform: uppercase;
+                margin-bottom: 15px;
+            }
+            h4{
+                color: #2a2a2a;
+                font-size: 35px;
+                font-weight: 700;
+                text-transform: capitalize;
+                margin-bottom: 25px;
+                span{
+                    font-style: normal;
+                    color: #726ae3;
+                }
+            }
+            p{
+                margin-top: 30px;
+                margin-bottom: 45px;
+                font-size: 16px;
+                line-height: 30px;
+                font-weight: 400;
+                color: #afafaf;
+                a{
+                    color: #0d6efd;
+                }
+            }
+            .line{
+                width: 50px;
+                height: 2px;
+                background-color: #726ae3;
+            }
+            .charts{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap: 20px;
+                .progress{
+                    transform:rotate(-90deg);
+                    margin:0 auto;
+                    .track{
+                        fill: none;
+                        stroke-width:5;
+                        stroke-dasharray:440;
+                    }
+                }
+                .infor{
+                    position:absolute;
+                    font-size: 35px;
+                    text-align: center;
+                    font-weight: 700;
+                    bottom: 0px;
+                    top: 45px;
+                    width: 100%;
+                    line-height: 20px;
+                    span{
+                        font-size: 18px;
+                        color: #afafaf;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .about{
+        padding-top:130px;
+        &Main{
+            display:grid;
+            grid-template-columns: 1fr;
+        }
+    }
+}

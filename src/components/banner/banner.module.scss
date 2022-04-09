@@ -1,0 +1,114 @@
+$text-primary:#fa65b1;
+.mainBanner{
+    padding-top:100px;
+    .bannerCenter{
+        padding:0 12px;
+        margin-top:160px;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        .bannerLeft{
+            h6{
+                font-size:20px;
+                font-weight:700;
+                color:$text-primary;
+                text-transform:uppercase;
+                margin-bottom: 15px;
+            }
+            h2{
+                font-size:50px;
+                font-weight:700;
+                line-height:1.2;
+                margin-bottom:20px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 30px;
+                font-weight: 300;
+                color: #afafaf;
+                margin-right: 125px;
+                margin-bottom: 30px;
+            }
+            a{
+                border-radius:40px;
+                font-weight: 500;
+                border: 1px solid $text-primary;
+                padding:8px 20px;
+                color: $text-primary;
+            }
+        }
+        .bannerRight{
+            img{
+                width: 593px;
+                margin:0 auto;
+            }
+        }
+    }
+}
+    .mainBanner:before{
+        content:"";
+        background-image:url(https://templatemo.com/templates/templatemo_568_digimedia/assets/images/slider-left-dec.jpg);
+        background-repeat:no-repeat;
+        position:absolute;
+        left:0;
+        top: 100px;
+        width: 262px;
+        height: 625px;
+        z-index: -1;
+    }
+    .mainBanner:after{
+        content:"";
+        background-image:url(https://templatemo.com/templates/templatemo_568_digimedia/assets/images/slider-right-dec.jpg);
+        background-repeat:no-repeat;
+        position:absolute;
+        right:0;
+        top: 100px;
+        width: 1159px;
+        height: 797px;
+        z-index: -2;
+    }
+    @media only screen and (max-width: 1400px) {
+        .mainBanner{
+            .bannerCenter{
+                .bannerRight{
+                    img{
+                        width: 546px;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 1200px) {
+        .mainBanner{
+            .bannerCenter{
+                .bannerRight{
+                    img{
+                        width: 456px;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .mainBanner:after{
+            content:"";
+            background-image:none;
+        }
+        .mainBanner{
+            .bannerCenter{
+                grid-template-columns: 1fr;
+                .bannerRight{
+                    img{
+                        width: 593px;
+                    }
+                }
+                .bannerLeft{
+                    text-align: center;
+                    p{
+                        margin-left:47px;
+                        margin-right:47px;
+                    }
+                }
+            }
+        }
+    }
