@@ -57,19 +57,19 @@ function Header(){
         <header>
             <div className={Style.headerArea}>
                 <div className="container mx-auto">
-                    <div className={Style.main}>
-                        <Logo
-                            src = {srcLogo}
-                        />
-                        <ListMenu
-                            list = {menu}
-                        />
-                        <IconTigger
-                        onClick={handleshowup}
-                        showup = {showup}
-                        />
-                        {showup && <MenuTrigger list = {menu} />}
-                    </div>
+                        <div className={Style.main}>
+                            <Logo
+                                src = {srcLogo}
+                            />
+                            <ListMenu
+                                list = {menu}
+                            />
+                            <IconTigger
+                            onClick={handleshowup}
+                            showup = {showup}
+                            />
+                            {showup && <MenuTrigger list = {menu} />}
+                        </div>
                 </div>
             </div>
         </header>

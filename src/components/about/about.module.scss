@@ -1,5 +1,6 @@
 .about{
     padding-top:130px;
+    position: relative;
     &Main{
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -75,13 +76,26 @@
         }
     }
 }
-
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 575.5px){
+    .about{
+        &Main{
+            &right{
+                .charts{
+                    grid-template-columns: 1fr;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 991.5px){
     .about{
         padding-top:130px;
         &Main{
             display:grid;
             grid-template-columns: 1fr;
+            img{
+                width: 100%;
+            }
         }
     }
 }
