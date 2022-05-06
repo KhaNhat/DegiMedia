@@ -1,0 +1,96 @@
+.freequote{
+    background-image:url(https://templatemo.com/templates/templatemo_568_digimedia/assets/images/quote-bg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:120px 0;
+    margin-top:130px;
+    text-align:center;
+    h4{
+        color:white;
+        font-size: 35px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 25px;
+    }
+    h6{
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    .line{
+        width: 50px;
+        height: 2px;
+        background-color: white;
+        margin:0 auto;
+
+    }
+    ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap:60px;
+        form{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 880px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius:50px;
+            input{
+                height: 40px;
+                font-size: 15px;
+                font-weight: 400;
+                outline: none;
+                width: 100%;
+            }
+            .active{
+                border-radius: 0 50px 50px 0;
+                border-bottom: none;
+                color: white;
+                font-size: 17px;
+                margin-left: 28px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1400.5px) {
+    .freequote{
+        ul form{
+            width: 760px;
+        }
+    }
+}
+@media only screen and (max-width: 1200.5px) {
+    .freequote{
+        ul form{
+            width: 640px;
+        }
+    }
+}
+@media only screen and (max-width: 992.5px) {
+    .freequote{
+        ul form{
+            width: 720px;
+        }
+    }
+}
+@media only screen and (max-width: 768.5px) {
+    .freequote{
+        ul form{
+            width: 540px;
+        }
+    }
+}
+@media only screen and (max-width: 575.5px) {
+    .freequote{
+        ul form{
+            width: 90%;
+            grid-template-columns: 1fr;
+            .active{
+                border-radius: 0 0 50px 50px;
+                margin-left: 0;
+            }
+        }
+    }
+}
