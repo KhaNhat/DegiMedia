@@ -1,0 +1,131 @@
+
+.blog{
+    padding-top:130px;
+    .blogHeading{
+        text-align: center;
+        margin-bottom:65px;
+        h4{
+            color: #2a2a2a;
+            font-size: 35px;
+            font-weight: 700;
+            text-transform: capitalize;
+            margin-bottom: 25px;
+            span{
+                color: #726ae3;
+            }
+        }
+        h6{
+            font-size: 15px;
+            font-weight: 700;
+            color: #726ae3;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        .line{
+            width: 50px;
+            height: 2px;
+            background-color: #726ae3;
+            margin:0 auto;
+        }
+    }
+}
+.blogCenter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    h4{
+        font-size: 20px;
+        font-weight: 700;
+        color: #2a2a2a;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 300;
+        color: #afafaf;
+    }
+}
+.category{
+    font-size: 15px;
+    color: #fff;
+    padding: 8px 12px;
+    background-color: #726ae3;
+    border-radius: 18px;
+    display: inline-block;
+}
+.date{
+    font-size: 16px;
+    color: #afafaf;
+    float: right;
+    margin-top: 8px;
+    font-weight: 400;
+}
+.downContent{
+    padding:30px;
+    img{
+        max-width:56px;
+        border-radius:50%;
+        margin-right: 15px;
+        display: inline-block;
+    }
+}
+.blogPost{
+    box-shadow: 0 0 14px 3px #6860603b;
+    border-radius: 25px;
+    margin-right: 12px;
+    margin-left:12px;
+    img{
+        border-top-right-radius: 23px;
+        border-top-left-radius: 23px;
+    }
+    
+}
+.blogPosts{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 12px;
+    margin-left:32px;
+    img{
+        float: left;
+        border-radius:23px;
+        margin-right:30px;
+    }
+}
+.discoverMor{
+    border-radius: 40px;
+    border: 1px solid #fa65b1;
+    padding:10px 20px;
+    color: #fa65b1;
+    float : right;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+@media only screen and (max-width: 322.5px) {
+    .blogPosts{
+        img{
+            margin-bottom: 10px;
+        }
+    }
+}
+@media only screen and (max-width: 767.5px) {
+    .blogPosts{
+        img{
+            width: 140px;
+        }
+        p{
+            display: none;
+        }
+    }
+}
+@media only screen and (max-width: 991.5px) {
+    .blogCenter{
+        grid-template-columns: 1fr;
+    }
+    .blogPosts{
+        margin-top:35px;
+    }
+}

@@ -5,6 +5,7 @@ import Services from './components/services/services.js';
 import GlobelStyle from './components/globelStyle/globelstyle.js';
 import Freequote from './components/freequote/freequote.js';
 import Portfolio from './components/portfolio/portfolio.js';
+import Blog from './components/blog/blog.js';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Services />
       <Freequote />
       <Portfolio />
+      <Blog />
     </GlobelStyle>
   )
 }
