@@ -70,7 +70,7 @@ function ContactMain(){
 function Contact(){
     return(
         <div className={Style.contact}>
-            <div className="container mx-auto">
+            <div className="containerMe mx-auto">
                 <ContactHeading />
                 <ContactMain />
             </div>

@@ -94,7 +94,7 @@ function Blog(){
     ]
     return(
         <div className={Style.blog}>
-            <div className="container mx-auto">
+            <div className="containerMe mx-auto">
                 <Heading />
                 <div className={`wow animate__animated animate__fadeInUp ${Style.blogCenter}`}>
                 <Left

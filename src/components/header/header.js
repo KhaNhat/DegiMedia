@@ -56,7 +56,7 @@ function Header(){
     return (
         <header>
             <div className={Style.headerArea}>
-                <div className="container mx-auto">
+                <div className="containerMe mx-auto">
                         <div className={Style.main}>
                             <Logo
                                 src = {srcLogo}

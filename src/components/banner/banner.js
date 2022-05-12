@@ -2,7 +2,7 @@ import Style from './banner.module.scss'
 function Banner(){
     return (
         <div className={Style.mainBanner}>
-            <div className="container mx-auto">
+            <div className="containerMe mx-auto">
             <div className={Style.bannerCenter}>
                 <div className={`wow animate__animated animate__fadeInLeft ${Style.bannerLeft}`}>
                     <h6>Digital Media Agency</h6>

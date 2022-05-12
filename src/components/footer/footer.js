@@ -2,7 +2,7 @@ import Style from './footer.module.scss'
 function Footer(){
     return(
         <footer>
-            <div className="container mx-auto">
+            <div className="containerMe mx-auto">
                 <div className="px-3">
                     <p>
                     Copyright © 2022 DigiMedia Co., Ltd. All Rights Reserved. 

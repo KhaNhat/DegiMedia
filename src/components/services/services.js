@@ -108,7 +108,7 @@ function Services(){
         ]
     return(
         <div className={Style.services}>
-            <div className="container mx-auto">
+            <div className="containerMe mx-auto">
                 <Sectionheading/>
                 <Grid 
                     listGird = {listGird}

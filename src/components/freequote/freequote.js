@@ -3,7 +3,7 @@ import Style from './freequote.module.scss'
 function Freequote(){
     return(
         <div className={Style.freequote}>
-            <div className="container mx-auto">
+            <div className="containerMe mx-auto">
                 <ul>
                     <li className={`wow animate__animated animate__fadeIn animate__slow`}>
                     <h6>Get Your Free Quote</h6>

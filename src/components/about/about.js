@@ -54,7 +54,7 @@ function About(){
     const SrcImg = "https://templatemo.com/templates/templatemo_568_digimedia/assets/images/about-dec.png";
     return(
         <div className={Style.about}>
-            <div className="container mx-auto">
+            <div className="containerMe mx-auto">
                 <div className={Style.aboutMain}>
                     <AboutImg
                         SrcImg = {SrcImg}
