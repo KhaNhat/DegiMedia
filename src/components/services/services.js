@@ -2,7 +2,7 @@ import Style from './services.module.scss'
 import {useState,useEffect} from 'react'
 function Sectionheading(){
     return(
-        <div className={Style.Sectionheading}>
+        <div className={`wow animate__animated animate__fadeInDown animate__delay-1s ${Style.Sectionheading}`}>
             <h6>Our Services</h6>
             <h4>What Our Agency <span>Provides</span></h4>
             <div className={`${Style.line} mx-auto`}></div>
@@ -11,7 +11,7 @@ function Sectionheading(){
 }
 function Grid(value){
     return(
-        <div className={Style.grid}>
+        <div className={`wow animate__animated animate__fadeInUp ${Style.grid}`}>
             <ul>
             {
                 value.listGird.map(function(item,index){

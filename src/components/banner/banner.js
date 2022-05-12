@@ -4,7 +4,7 @@ function Banner(){
         <div className={Style.mainBanner}>
             <div className="container mx-auto">
             <div className={Style.bannerCenter}>
-                <div className={Style.bannerLeft}>
+                <div className={`wow animate__animated animate__fadeInLeft ${Style.bannerLeft}`}>
                     <h6>Digital Media Agency</h6>
                     <h2>We Boost Your Website Traffic</h2>
                     <p>This template is brought to you by TemplateMo website. 
@@ -13,7 +13,7 @@ function Banner(){
                         Thank you.</p>
                     <a href="#">Free Quote</a>
                 </div>
-                <div className={Style.bannerRight}>
+                <div className={`wow animate__animated animate__fadeInRight animate__delay-1s ${Style.bannerRight}`}>
                     <img src="https://templatemo.com/templates/templatemo_568_digimedia/assets/images/slider-dec.png" />
                 </div>
             </div>

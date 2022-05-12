@@ -2,7 +2,7 @@ import Style from './about.module.scss'
 
 function AboutImg(value){
     return(
-            <img src= {value.SrcImg} className="w-100" />
+            <img src= {value.SrcImg} className="w-100 wow animate__animated animate__backInLeft" />
     )
 }
 function Chart(value){
@@ -25,7 +25,7 @@ function Chart(value){
 }
 function ContentRight(){
     return (
-        <div className={Style.aboutMainright}>
+        <div className={`wow animate__animated animate__backInRight ${Style.aboutMainright}`}>
             <h6>about us</h6>
             <h4>Who is DigiMedia <span>Agency</span></h4>
             <div className={Style.line}></div>
@@ -33,7 +33,7 @@ function ContentRight(){
             <a href="#"> contribute a little amount </a>
              via PayPal to <a href="#">support TemplateMo </a>
              in creating new templates regularly.</p>
-             <div className={Style.charts}>
+             <div className={`${Style.charts}`}>
                  <Chart
                  color = "#f32490"
                  percent = {[44,90,'Coding']}

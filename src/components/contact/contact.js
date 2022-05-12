@@ -2,7 +2,7 @@ import Style from './contact.module.scss'
 
 function ContactHeading(){
     return(
-        <div className={Style.contactHeading}>
+        <div className={`wow animate__animated animate__fadeIn animate__delay-1s ${Style.contactHeading}`}>
             <h6>Contact Us</h6>
             <h4>Get In Touch With Us <span>Now</span></h4>
             <div className={Style.line}></div>
@@ -11,7 +11,7 @@ function ContactHeading(){
 }
 function ContactMain(){
     return(
-        <div className={Style.contactMain}>
+        <div className={`wow animate__animated animate__fadeInUp ${Style.contactMain}`}>
             <form>
                 <div className={Style.main}>
                     <div>

@@ -5,12 +5,12 @@ function Freequote(){
         <div className={Style.freequote}>
             <div className="container mx-auto">
                 <ul>
-                    <li>
+                    <li className={`wow animate__animated animate__fadeIn animate__slow`}>
                     <h6>Get Your Free Quote</h6>
                     <h4>Grow With Us Now</h4>
                     <div className={Style.line}></div>
                     </li>
-                    <li>
+                    <li className={`wow animate__animated animate__fadeIn animate__slow animate__delay-1s`}>
                         <form>
                             <div className="py-5 px-7">
                             <input type="text" placeholder="Your website URL..." className="border-b-2" />

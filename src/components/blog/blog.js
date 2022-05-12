@@ -2,7 +2,7 @@ import Style from './blog.module.scss'
 
 function Heading(){
     return(
-        <div className={Style.blogHeading}>
+        <div className={`wow animate__animated animate__fadeInDown animate__delay-1s ${Style.blogHeading}`}>
             <h6>Recent News</h6>
             <h4>Check Our Blog <span>Posts</span></h4>
             <div className={Style.line}></div>
@@ -96,7 +96,7 @@ function Blog(){
         <div className={Style.blog}>
             <div className="container mx-auto">
                 <Heading />
-                <div className={Style.blogCenter}>
+                <div className={`wow animate__animated animate__fadeInUp ${Style.blogCenter}`}>
                 <Left
                     blogLeft = {blogPost[0]}
                 />

@@ -53,7 +53,7 @@ export default class Responsive extends Component {
       };
       return (
         <div className={Style.portflo}>
-          <div className={Style.port_heading}>
+          <div className={`wow animate__animated animate__fadeInLeft ${Style.port_heading}`}>
           <div className="container mx-auto">
               <h6>Our Portofolio</h6>
               <h4>See Our Recent <span>Projects</span></h4>
